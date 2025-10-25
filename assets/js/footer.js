@@ -12,7 +12,7 @@ class Footer extends HTMLElement {
                 <div class="d-flex flex-column gap-8 pe-xl-5">
                     <h2 class="mb-0 text-white">Build something together?</h2>
                     <div class="d-flex flex-column gap-2">
-                    <a href="https://www.wrappixel.com/" target="_blank" class="link-hover hstack gap-3 text-white fs-5">
+                    <a href="mailto:hello@agrmayank.com" class="link-hover hstack gap-3 text-white fs-5">
                         <iconify-icon icon="lucide:arrow-up-right" class="fs-7 text-primary"></iconify-icon>
                         hello@agrmayank.com
                     </a>
