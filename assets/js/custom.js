@@ -9,17 +9,16 @@ $(function () {
         }
     });
 
-
     // Featured Owl Carousel
     $('.featured-projects-slider .owl-carousel').owlCarousel({
         center: true,
         loop: true,
         margin: 30,
-        nav: false,
+        nav: true,
         dots: false,
         autoplay: true,
-        autoplayTimeout: 5000,
-        autoplayHoverPause: false,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
         responsive: {
             0: {
                 items: 1
@@ -36,20 +35,18 @@ $(function () {
         }
     })
 
-
     // Count
     $('.count').each(function () {
-		$(this).prop('Counter', 0).animate({
-			Counter: $(this).text()
-		}, {
-			duration: 1000,
-			easing: 'swing',
-			step: function (now) {
-				$(this).text(Math.ceil(now));
-			}
-		});
-	});
-
+        $(this).prop('Counter', 0).animate({
+            Counter: $(this).text()
+        }, {
+            duration: 1000,
+            easing: 'swing',
+            step: function (now) {
+                $(this).text(Math.ceil(now));
+            }
+        });
+    });
 
     // ScrollToTop
     function scrollToTop() {
@@ -71,11 +68,9 @@ $(function () {
         }
     };
 
-
     // Aos
-	AOS.init({
-		once: true,
-	});
+    AOS.init({
+        once: true,
+    });
 
 });
-
