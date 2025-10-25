@@ -26,13 +26,16 @@ class Footer extends HTMLElement {
                 </div>
                 <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
                 <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
-                    <li><a class="link-hover fs-5 text-white" href="index.html">Home</a></li>
+                    <!--<li><a class="link-hover fs-5 text-white" href="index.html">Home</a></li>-->
+                    <li><a class="link-hover fs-5 text-white" href="games.html">Games</a></li>
+                    <li><a class="link-hover fs-5 text-white" href="apps.html">Apps</a></li>
+                    <li><a class="link-hover fs-5 text-white" href="blog.html">Blog</a></li>
                     <li><a class="link-hover fs-5 text-white" href="about-us.html">About</a></li>
-                    <li><a class="link-hover fs-5 text-white" id="services" href="#services">Services</a></li>
-                    <li><a class="link-hover fs-5 text-white" href="projects.html">Work</a></li>
-                    <li><a class="link-hover fs-5 text-white" href="terms-and-conditions.html">Terms</a></li>
+                    <li><a class="link-hover fs-5 text-white" href="contact.html">Contact</a></li>
+                    <hr class="border-line bg-light-gray">
                     <li><a class="link-hover fs-5 text-white" href="privacy-policy.html">Privacy Policy</a></li>
-                    <li><a class="link-hover fs-5 text-white" href="404.html">Error 404</a></li>
+                    <li><a class="link-hover fs-5 text-white" href="terms-and-conditions.html">Terms & Conditions</a></li>
+                    <!--<li><a class="link-hover fs-5 text-white" href="404.html">Error 404</a></li>-->
                 </ul>
                 </div>
                 <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
@@ -46,7 +49,7 @@ class Footer extends HTMLElement {
                 <p class="mb-0 text-white text-opacity-70 text-md-end">
                     Copyright &copy;
                     <script>document.write(new Date().getFullYear());</script> by <a class="link-hover fs-5 text-white"
-                    href="https://agrmayank.com/" target="_blank" rel="noopener noreferrer">AgrMayank</a>
+                    href="https://agrmayank.com/" target="_blank" rel="noopener noreferrer">AgrMayank.</a>
                 </p>
                 </div>
             </div>

@@ -38,14 +38,14 @@ class Header extends HTMLElement {
                                 class="img-fluid animate-spin">Home</a>
                             </li>
                             <li class="header-item">
-                            <a href="about-us.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                            <a href="games.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                                 src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                                class="img-fluid animate-spin">About</a>
+                                class="img-fluid animate-spin">Games</a>
                             </li>
                             <li class="header-item">
-                            <a href="projects.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                            <a href="apps.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                                 src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                                class="img-fluid animate-spin">Projects</a>
+                                class="img-fluid animate-spin">Apps</a>
                             </li>
                             <li class="header-item">
                             <a href="blog.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
@@ -53,34 +53,29 @@ class Header extends HTMLElement {
                                 class="img-fluid animate-spin">Blog</a>
                             </li>
                             <li class="header-item">
-                            <a href="index.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
+                            <a href="about-us.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                                 src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                                class="img-fluid animate-spin">Services</a>
+                                class="img-fluid animate-spin">About</a>
                             </li>
                             <li class="header-item">
                             <a href="contact.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                                 src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
                                 class="img-fluid animate-spin">Contact</a>
                             </li>
-                            <li class="header-item">
-                            <a href="index.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
-                                src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
-                                class="img-fluid animate-spin">Docs</a>
-                            </li>
                         </ul>
-                        <hr class="border-line bg-white">
-                        <div class="hstack gap-3">
+
+                        <!--<div class="hstack gap-3">
                             <a href="sign-in.html"
                             class="btn btn-outline-light fs-6 bg-white px-3 py-2 text-dark w-50 hstack justify-content-center">Sign
                             In</a>
                             <a href="sign-up.html"
                             class="btn btn-dark text-white fs-6 bg-dark px-3 py-2 w-50 hstack justify-content-center">Sign
                             Up</a>
-                        </div>
+                        </div>-->
                         </div>
                         <div>
-                        <a class="text-dark" href="tel:+917544864618">(+91) 7544864618</a>
-                        <a class="fs-8 text-dark fw-bold" href="mailto:hello@agrmayank.com">hello@agrmayank.com</a>
+                        <!--<a class="text-dark" href="tel:+1234567890">+1234567890</a>-->
+                        <a class="fs-8 text-bg-dark btn fw-bold" href="mailto:hello@agrmayank.com">hello@agrmayank.com</a>
                         </div>
                     </div>
                     </ul>
