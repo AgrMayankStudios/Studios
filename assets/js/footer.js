@@ -32,10 +32,6 @@ class Footer extends HTMLElement {
                     <li><a class="link-hover fs-5 text-white" href="blog.html">Blog</a></li>
                     <li><a class="link-hover fs-5 text-white" href="about-us.html">About</a></li>
                     <li><a class="link-hover fs-5 text-white" href="contact.html">Contact</a></li>
-                    <hr class="border-line bg-light-gray">
-                    <li><a class="link-hover fs-5 text-white" href="privacy-policy.html">Privacy Policy</a></li>
-                    <li><a class="link-hover fs-5 text-white" href="terms-and-conditions.html">Terms & Conditions</a></li>
-                    <!--<li><a class="link-hover fs-5 text-white" href="404.html">Error 404</a></li>-->
                 </ul>
                 </div>
                 <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
