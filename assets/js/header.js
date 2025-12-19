@@ -47,11 +47,11 @@ class Header extends HTMLElement {
                                 src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
                                 class="img-fluid animate-spin">Apps</a>
                             </li>
-                            <li class="header-item">
+                            <!--<li class="header-item">
                             <a href="blog.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                                 src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"
                                 class="img-fluid animate-spin">Blog</a>
-                            </li>
+                            </li>-->
                             <li class="header-item">
                             <a href="about-us.html" class="header-link hstack gap-2 fs-7 fw-bold text-dark"><img
                                 src="../assets/images/svgs/secondary-leaf.svg" alt="" width="20" height="20"

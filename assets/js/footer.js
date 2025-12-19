@@ -26,10 +26,10 @@ class Footer extends HTMLElement {
                 </div>
                 <div class="col-md-4 col-xl-2 mb-8 mb-xl-0">
                 <ul class="footer-menu list-unstyled mb-0 d-flex flex-column gap-2">
-                    <!--<li><a class="link-hover fs-5 text-white" href="index.html">Home</a></li>-->
+                    <li><a class="link-hover fs-5 text-white" href="index.html">Home</a></li>
                     <li><a class="link-hover fs-5 text-white" href="games.html">Games</a></li>
                     <li><a class="link-hover fs-5 text-white" href="apps.html">Apps</a></li>
-                    <li><a class="link-hover fs-5 text-white" href="blog.html">Blog</a></li>
+                    <!--<li><a class="link-hover fs-5 text-white" href="blog.html">Blog</a></li>-->
                     <li><a class="link-hover fs-5 text-white" href="about-us.html">About</a></li>
                     <li><a class="link-hover fs-5 text-white" href="contact.html">Contact</a></li>
                 </ul>
