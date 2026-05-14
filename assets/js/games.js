@@ -375,7 +375,7 @@ class Game_11 extends HTMLElement {
 }
 customElements.define('game-headshot', Game_11);
 
-// Game Structure
+// Backlog Structure
 class Game_12 extends HTMLElement {
   constructor() {
     super();
@@ -383,11 +383,30 @@ class Game_12 extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
-
+      <div class="portfolio d-flex flex-column gap-6">
+        <div class="portfolio-img position-relative overflow-hidden">
+          <img src="../assets/images/portfolio/backlog/banner.webp" alt="" class="img-fluid"
+            style="border-radius: 4px;">
+          <div class="portfolio-overlay">
+            <a href="https://agrmayank.itch.io/backlog/" target="_blank" rel="noopener noreferrer"
+              class="position-absolute top-50 start-50 translate-middle bg-primary round-64 rounded-circle hstack justify-content-center">
+              <iconify-icon icon="lucide:arrow-up-right" class="fs-8 text-dark"></iconify-icon>
+            </a>
+          </div>
+        </div>
+        <div class="portfolio-details d-flex flex-column gap-3">
+          <h3 class="mb-0">Backlog</h3>
+          <div class="hstack gap-2">
+            <a class="badge text-dark border" href="https://agrmayank.itch.io/backlog/" target="_blank"
+              rel="noopener noreferrer">Itch.io
+              <iconify-icon icon="lucide:arrow-up-right" class="text-dark"></iconify-icon></a>
+          </div>
+        </div>
+      </div>
     `;
   }
 }
-customElements.define('game-ReplaceWithName', Game_12);
+customElements.define('game-backlog', Game_12);
 
 // Game Structure
 class Game_13 extends HTMLElement {
